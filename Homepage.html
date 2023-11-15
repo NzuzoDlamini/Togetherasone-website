@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+      <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Homepage</title>
+
+    </head>
+    <body><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+
+    <title>Profile</title>
+    
+<!--
+Mini Profile Template
+https://templatemo.com/tm-530-mini-profile
+-->
+            <style>
+      html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6b6b6b;
+  overflow-x: hidden;
+}
+ a,
+button {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+                
+.container-fluid {
+  max-width: 1200px;
+}
+    .tm-bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}            
+    .tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tm-bg-green {
+  background-color: #98cb00;
+}
+
+.tm-bg-orange {
+  background-color: #cc6733;
+}
+
+.tm-bg-blue {
+  background-color: #3398cc;
+}
+
+.tm-bg-dark-gray {
+  background-color: #676767;
+}
+/*
+  Welcome section
+*/
+#tmWelcome {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tm-brand-container-outer {
+  margin-top: -400px;
+}
+
+.tm-brand-container-inner {
+  max-width: 580px;
+  width: 100%;
+}
+
+.tm-brand-container {
+  padding: 75px 110px;
+}
+.tm-brand-name {
+  font-size: 3.5rem;
+    text-align: center;
+}
+
+.tm-brand-description {
+  font-size: 1.4rem;
+}
+
+.parallax-window {
+  min-height: 1100px;
+  background: transparent;
+}
+
+#tmContact {
+  min-height: 1197px;
+}
+
+.tm-welcome-container {
+  min-height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.tm-welcome-title {
+  margin-bottom: 40px;
+}
+
+.tm-welcome-left {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tm-welcome-left-col {
+  display: flex;
+  align-items: center;
+}
+
+.tm-welcome-right {
+  color: white;
+  background-color: #986665;
+  padding: 80px 43px 70px;
+  height: 100%;
+}
+
+.tm-welcome-icon {
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+/*
+  Portfolio section
+*/
+                #tmPortfolio {
+  padding-top: 80px;
+}
+
+.tm-portfolio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.tm-portfolio-name {
+  width: 330px;
+  height: 220px;
+  font-size: 2rem;
+  padding: 70px 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tm-portfolio-description {
+  width: calc(100% - 330px);
+  padding: 20px 45px;
+}
+
+.tm-portfolio-description h3 {
+  margin-bottom: 20px;
+}
+
+.tm-text-green {
+  color: #98cb00;
+}
+
+.tm-text-orange {
+  color: #cc6733;
+}
+
+.tm-text-blue {
+  color: #3398cc;
+}
+
+.tm-text-dark-gray {
+  color: #676767;
+}
+
+.tm-title-small {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/*
+  Contact section
+*/
+                
+#tmContact {
+  padding-top: 95px;
+    background-image:url("wandile02.jpg");
+		background-size:cover;
+		background-attachment:scroll;
+}
+
+.tm-contact-item {
+  width: 33.3334%;
+  max-width: 345px;
+  height: auto;
+  min-height: 420px;
+  margin-right: 35px;
+  background-color: white;
+  padding: 54px 34px 44px;
+}
+
+.tm-contact-item:last-child {
+  margin-right: 0;
+}
+
+.tm-contact-items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.tm-contact-item-icon {
+  margin-bottom: 45px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tmContactForm {
+  width: 100%;
+  max-width: 680px;
+  padding: 45px 45px 30px;
+  margin-bottom: 95px;
+}
+
+.form-group {
+  max-width: 355px;
+}
+
+.form-control {
+  background: transparent;
+  border-color: #999999;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.tm-btn-submit {
+  background-color: #999999;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+}
+
+.tm-btn-submit:focus,
+.tm-btn-submit:hover {
+  background-color: #676767;
+}
+
+.tm-copyright-text {
+  margin-bottom: 30px;
+}
+
+.tm-link {
+  color: #676767;
+}
+
+@media (max-width: 1054px) {
+  .tm-contact-item-icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tm-contact-items-container {
+    flex-direction: column;
+  }
+
+  .tm-contact-item {
+    width: auto;
+    max-width: 680px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .tm-contact-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #tmContactForm {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  .tm-portfolio-item {
+    flex-direction: column;
+  }
+
+  .tm-portfolio-name {
+    justify-content: center;
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%;
+  }
+
+  .tm-portfolio-description {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 572px) {
+  .tm-brand-container {
+    padding: 45px;
+  }
+}
+
+@media (max-width: 443px) {
+  .tm-brand-name {
+    font-size: 3rem;
+  }
+
+  .tm-brand-container {
+    padding: 25px;
+  }
+}
+
+
+      </style>
+      
+  </head>
+     <body>
+<style>
+body{
+background-image:url(wandile02.jpg);
+}
+</style>
+    <!-- Welcome Section -->
+    <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/wandile02.jpg">
+      <div class="container-fluid tm-brand-container-outer">
+        <div class="row">
+          <div class="col-12">
+            <!-- Logo Area -->
+            <!-- Black transparent bg -->
+            <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
+              <div class="tm-brand-container text-center">
+                <h1 class="tm-brand-name">TOGETHER AS ONE</h1>
+                <p class="tm-brand-description mb-0">TOGETHER WE CAN MAKE THE WORLD A BETTER PLACE.</p>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm-bg-white-transparent tm-welcome-container">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <!-- Welcome Text -->
+            <!-- White transparent bg -->
+            <div class="col-md-7 tm-welcome-left-col">
+              <div class="tm-welcome-left">
+                <h2 class="tm-welcome-title">Welcome to our organization.</h2>
+                <p class="pb-0">
+                     Hello & welcome. My name is Nzuzo Dlamini[ST 10290557] and this is my non-governmental organization.
+                  
+                  </p>
+              </div>
+            </div>
+            <!-- Brown bg -->
+            <div class="col-md-5">
+              <div class="tm-welcome-right">
+                <i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>
+                <p class="mb-0">
+               Hope you have a clear perspective of what we are trying to achieve in this organization.  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Welcome section -->
+         <!-- Portfolio section -->
+    <section id="tmPortfolio">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-green">
+                Homepage
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-green">
+                  <a href="Homepage.html">Our Homepage </a>
+                  <span class="tm-title-small">(2020 to Present).</span>
+                </h3>
+       
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-orange">
+                About Us.
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-orange">
+                  About Us
+                  <span class="tm-title-small">(2020 to present).</span>
+                </h3>
+                <p class="mb-0">I am just a small boy that comes from one of the most dangerous townships in Durban which is one of the reasons why i started this organization. I started this organization back in 2020 during Lockdown, growing up in the townships makes you realize that there are people who are struggling each and everyday. This orgarnization is all about helping the community with basic needs such as shelter,food parcels,water and education. we are currently located in durban. 
+
+I chose to work for and with nonprofits because i like working for mission-based organizations, rather than profit-based organizations. I like where the priority is to work towards a specific goal that somehow helps people or the environment, rather than to work primarilyfor a profit for a board of directors and investors.
+                    
+                     
+                 
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-blue">
+                Products and Services.
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-blue">
+                  Our Products and Services.
+                  <span class="tm-title-small">(Started from 2021).</span>
+                </h3>
+                <p class="mb-0">
+                 During Lockdown people lost their jobs.<br>
+                    In the townships life was very difficult because a lot of bread-winners lost their jobs and could no longer provide for their families.<br>
+                    which is why the issue of looting was more advanced in KZN, we came with this idea to give out food parcels to try and reduce the issue of Looting.<br>
+                    People started committing crime in order to put food on the table for their families, you  cannot really blame them beacause it was hunger that made them coomit those crimes.<br>
+                    We started dishing out hot porradge for breakfast in one of the community halls and we saw that it was helping the people of the community and decided to also add supper on the menu.<br>
+                    we ended up getting a few donations and sponsers so we were able to give out food parcels each and every month to try and reduce the issue of starvation<br>
+                 Globally, in times of crisis, gender-based violence tends to escalate, placing increased demand on services for survivors .
+                <br>
+                    Disaster is by its very nature discruptive, but the needs of survivors of gender-based violence remain the same.
+                    <br>
+                    We started this programme for the homeless because there are some people who take advantage of cetain situations. The shelter has been running for almost 6 years now and still counting.
+                    <br>In 2020 when the National State of disaster was declared the country entered a strict lockdown, Women in violent relationships were locked in their homes with the most common perpetrator of domestic violence in south africa, Which made us to open a new counselling facillity in one of our shelter homes.
+                    <br>
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-dark-gray">
+                News.
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-dark-gray">
+                  News About Our Organization.
+                  <span class="tm-title-small">
+                    (2018 May to 2023).
+                  </span>
+                </h3>
+                <p class="mb-0">
+                
+					<br>
+                    Globally, in times of crisis, gender-based violence tends to escalate, placing increased demand on services for survivors .
+                <br>
+                    Disaster is by its very nature discruptive, but the needs of survivors of gender-based violence remain the same.
+                    <br>
+                    We started this programme for the homeless because there are some people who take advantage of cetain situations. The shelter has been running for almost 6 years now and still counting.
+                    <br>In 2020 when the National State of disaster was declared the country entered a strict lockdown, Women in violent relationships were locked in their homes with the most common perpetrator of domestic violence in south africa, Which made us to open a new counselling facillity in one of our shelter homes.
+                    <br>
+					<br>
+                    
+                    
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End portfolio section -->
+
+    <!-- Contact section -->
+    <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="img/nzuzo2.jpg">> 
+         
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="tm-contact-items-container">
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-briefcase tm-contact-item-icon"></i>
+                <p class="mb-0">
+                  You can reach me through the following communication:
+                    Email:nzuzowandile02@gmail.com
+                    Phone:084 967 8390
+                </p>
+              </div>
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-building tm-contact-item-icon"></i>
+                <p class="mb-0">
+                  Social media platforms:<br>
+                    Instagram: Nzuzo Dlamini.<br>
+                    Facebook: Wandile Dlamini.<br>
+                    Whatsapp: 084 967 8390.
+                </p>
+              </div>
+
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-balance-scale tm-contact-item-icon"></i>
+                  <p class="mb-0">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56142.54023051396!2d32.14156919562824!3d-28.422009699481496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1efa4f1cf432148f%3A0xf4f24b93cbcde38b!2sNordale%20Hall!5e0!3m2!1sen!2sza!4v1697151818641!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <form
+              action="index.html"
+              method="POST"
+              id="tmContactForm"
+              class="tm-bg-white-transparent"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="contact_name"
+                  name="contact_name"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="contact_email"
+                  name="contact_email"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  rows="4"
+                  id="contact_message"
+                  name="contact_message"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button
+                  type="submit"
+                  class="btn tm-btn-submit rounded-0 text-white"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row">
+          <footer class="col-12">
+            <p class="text-center tm-copyright-text">
+            Copyright 2023 Nzuzo Dlamini Profile Page.
+            
+            - Design: Nzuzo.</p>
+          </footer>
+        </div>
+      </div>
+      <!-- container -->
+    
+    <!-- section -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script>
+      function detectMsBrowser() {
+        using_ms_browser =
+          navigator.appName == "Microsoft Internet Explorer" ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Edge") > -1) ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Trident") > -1);
+
+        if (using_ms_browser == true) {
+          alert(
+            "Please use Chrome or Firefox for the best browsing experience!"
+          );
+        }
+      }
+      function setBrandMarginTop() {
+        var bottomContainerHeight = $(".tm-welcome-container").height();
+
+        $(".tm-brand-container-outer").css({
+          "margin-top": -bottomContainerHeight + "px"
+        });
+      }
+
+      $(function() {
+        setBrandMarginTop();
+        detectMsBrowser();
+
+        // Handle window resize event
+        $(window).resize(function() {
+          setBrandMarginTop();
+        });
+      });
+    </script>
+  </body>
+</html>
+
+
+    </body>
+</html>
